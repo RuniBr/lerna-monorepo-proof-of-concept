@@ -1,0 +1,19 @@
+{
+  "name": "@api/server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
+  },
+  "jest": {
+    "testMatch": [
+      "**/*.(spec).(ts|tsx)"
+    ]
+  }
+}

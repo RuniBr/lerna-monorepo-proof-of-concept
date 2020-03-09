@@ -1,0 +1,16 @@
+{
+  "name": "@shared/components",
+  "version": "1.0.0",
+  "private": true,
+  "peerDependencies": {
+    "@types/react": "^16.9.23",
+    "@types/styled-components": "^5.0.1",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "styled-components": "^5.0.1",
+    "typescript": "^3.8.3"
+  },
+  "jest": {}
+}

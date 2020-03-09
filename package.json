@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "dev:web": "yarn workspace @client/web dev",
+    "test": "jest",
+    "changed": "lerna changed",
+    "updated": "lerna updated"
+  },
+  "workspaces": [
+    "packages/api/*",
+    "packages/client/*",
+    "packages/shared/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
