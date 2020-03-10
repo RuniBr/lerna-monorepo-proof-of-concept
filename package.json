@@ -1,5 +1,6 @@
 {
-  "name": "root",
+  "name": "monorepo",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
@@ -9,9 +10,9 @@
     "updated": "lerna updated"
   },
   "workspaces": [
-    "packages/api/*",
-    "packages/client/*",
-    "packages/shared/*"
+    "packages/api/**",
+    "packages/client/**",
+    "packages/shared/**"
   ],
   "devDependencies": {
     "lerna": "^3.20.2"
