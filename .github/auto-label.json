@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "api": ["packages/api/"],
+    "client": ["packages/client/"],
+    "shared": ["packages/shared/"]
+  }
+}
