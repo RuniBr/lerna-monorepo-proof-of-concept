@@ -10,16 +10,16 @@
   "dependencies": {
     "@shared/components": "1.0.0",
     "dotenv": "^8.2.0",
-    "next": "9.2.2",
+    "next": "9.3.1",
     "next-compose-plugins": "^2.2.0",
-    "next-transpile-modules": "^3.0.2",
-    "react": "16.13.0",
-    "react-dom": "16.13.0",
+    "next-transpile-modules": "^3.1.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "styled-components": "^5.0.1",
     "ts-jest": "^25.2.1"
   },
   "devDependencies": {
-    "@types/react": "^16.9.23",
+    "@types/react": "^16.9.25",
     "@types/styled-components": "^5.0.1",
     "babel-plugin-module-resolver": "^4.0.0",
     "babel-plugin-styled-components": "^1.10.7",
